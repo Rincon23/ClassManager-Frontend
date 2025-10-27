@@ -9,14 +9,14 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-4/5 space-y-6 md:space-y-0 text-gray-400 text-sm md:text-base leading-relaxed ">
           <p>
-            Desenvolvido com{" "}
+            Front-end:{" "}
             <span className="text-indigo-400 font-medium">Next.js</span>,{" "}
             <span className="text-indigo-400 font-medium">React</span> e{" "}
-            <span className="text-indigo-400 font-medium">TailwindCSS</span> no front-end.
+            <span className="text-indigo-400 font-medium">TailwindCSS</span>.
           </p>
 
           <p>
-            API construída com{" "}
+            Back-end:{" "}
             <span className="text-indigo-400 font-medium">Node.js</span>,{" "}
             <span className="text-indigo-400 font-medium">Express</span>,{" "}
             <span className="text-indigo-400 font-medium">Sequelize</span> e{" "}
@@ -24,7 +24,7 @@ export function Footer() {
           </p>
 
           <p>
-            Infraestrutura via{" "}
+            Infraestrutura:{" "}
             <span className="text-indigo-400 font-medium">Docker</span> e{" "}
             <span className="text-indigo-400 font-medium">GitHub Actions</span>.
           </p>
