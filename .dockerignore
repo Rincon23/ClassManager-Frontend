@@ -1,0 +1,24 @@
+# Ignorar node_modules locais (será instalado dentro do container)
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Pastas de build locais
+.next
+out
+
+# Configurações locais
+.env
+.env.local
+.DS_Store
+
+# Git e VS Code
+.git
+.gitignore
+.vscode
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
