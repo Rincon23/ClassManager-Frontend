@@ -13,7 +13,7 @@ export default function Home() {
       {/* Inicio */}
       <section className="flex flex-col items-center justify-center text-center py-20 bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center md:bg-fixed">
         <h1 className="text-4xl md:text-5xl font-extrabold text-white pb-10">
-          Gestão Acadêmica Simplificada
+          Gestão Acadêmica Simplificada!
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 font-extrabold">
           Organize professores, disciplinas e aulas em um único lugar.
