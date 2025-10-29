@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">ClassManager</h1>
 
-## Getting Started
+<p align="center">
+  <img src="ImagemProjeto.png" width="500" alt="Logo do projeto">
+</p>
 
-First, run the development server:
+<p align="center">
+  <b>Sistema moderno de gestão acadêmica</b><br>
+  Desenvolvido como projeto da disciplina Framework II
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Repositório principal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 O projeto completo (com API, front-end, Docker e documentação detalhada) está no repositório **[ClassManager](https://github.com/Rincon23/Projeto-Framework-II/tree/master)**!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Lá você encontra:
 
-## Learn More
+- 📌 **README completo** com instruções detalhadas  
+- 💻 **Passo a passo** para rodar com Docker  
+- 🧩 **Explicação das tecnologias utilizadas**  
+- 📷 **Imagens e vídeos do sistema em funcionamento**  
 
-To learn more about Next.js, take a look at the following resources:
+---
+## 📞 Créditos e Contato
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h3> Desenvolvido por <a href= https://rincon23.github.io/>Enzo Rincon</a></h3> 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p>📍 Localização: São Paulo 
+<p>💼 Áreas de interesse: Desenvolvimento Fullstack.
+<p>📢 Aberto a oportunidades profissionais na área de desenvolvimento
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📬 Como entrar em contato?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p>Curtiu o projeto? Quer dar um feedback, trocar ideia sobre tecnologia ou até falar de vagas?</p>
+<p>Tô sempre aberto a conversar! É só me chamar nos links aí embaixo 👇</p>
+
+<table> 
+    <tr>
+        <td><strong>📧 E-mail:</strong></td> 
+        <td><a href="mailto:enzorincon2003@gmail.com">enzorincon2003@gmail.com</a></td> 
+    </tr>
+    <tr> 
+        <td><strong>💼 LinkedIn:</strong></td> 
+        <td><a href="https://www.linkedin.com/in/enzorincon">linkedin.com/in/enzorincon</a></td> 
+    </tr> 
+    <tr> 
+        <td><strong>📷 Instagram:</strong></td> 
+        <td><a href="https://www.instagram.com/enzo.rincon">@enzo.rincon</a></td> 
+    </tr> 
+    <tr> 
+        <td><strong>🌐 Portifólio:</strong></td> 
+        <td><a href="https://rincon23.github.io/">https://rincon23.github.io/</a></td> 
+    </tr> 
+
+</table>
+
+---
+
+⭐ Obrigado por visitar este projeto! ⭐
+
