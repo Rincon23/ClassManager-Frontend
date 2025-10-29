@@ -11,15 +11,24 @@ export default function Home() {
   return (
     <div className="bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center min-h-[100svh] bg-fixed pb-10">
       {/* Inicio */}
-      <section className="flex flex-col items-center justify-center text-center py-20 bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center md:bg-fixed">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white pb-10">
-          Gestão Acadêmica Simplificada!
+      <section className="flex flex-col items-center justify-center text-center py-28 bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center md:bg-fixed backdrop-brightness-75">
+        {/* Título principal */}
+        <h1 className="text-[3rem] md:text-[5rem] font-extrabold text-white drop-shadow-xl tracking-tight">
+          ClassManager
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 font-extrabold">
-          Organize professores, disciplinas e aulas em um único lugar.
-          Um sistema desenvolvido para tornar o gerenciamento escolar ágil e eficiente.
+
+        {/* Subtítulo */}
+        <h2 className="text-2xl md:text-4xl font-semibold text-indigo-300 mt-4 mb-6 tracking-wide">
+          Gestão Acadêmica Simplificada
+        </h2>
+
+        {/* Descrição */}
+        <p className="text-base md:text-xl text-gray-200 max-w-3xl px-6 font-medium leading-relaxed">
+          Organize professores, disciplinas e aulas em um único lugar. <br />
+          Um sistema desenvolvido para tornar o gerenciamento escolar ágil, intuitivo e eficiente.
         </p>
       </section>
+
 
       <section className=" justify-center bg-[#0f172a] py-16">
         <div className="flex flex-col md:flex-row max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6" id="interface">

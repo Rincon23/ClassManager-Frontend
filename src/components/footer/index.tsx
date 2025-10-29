@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center space-y-8">
 
         <h3 className="text-2xl font-semibold text-white">
-          Projeto Framework II
+          ClassManager
         </h3>
 
         <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-4/5 space-y-6 md:space-y-0 text-gray-400 text-sm md:text-base leading-relaxed ">

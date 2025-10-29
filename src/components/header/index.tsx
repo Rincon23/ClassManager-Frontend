@@ -64,7 +64,7 @@ export function Header() {
         </button>
 
         {/* Links desktop */}
-        <div className="hidden md:flex space-x-8 text-sm font-semibold">
+        <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 space-x-10 font-semibold">
           <Link href="/disciplinas" className="hover:text-indigo-400 transition text-xl">Disciplinas</Link>
           <Link href="/professores" className="hover:text-indigo-400 transition text-xl">Professores</Link>
           <Link href="/aulas" className="hover:text-indigo-400 transition text-xl">Aulas</Link>
