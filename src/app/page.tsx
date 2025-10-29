@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div className="bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center min-h-[100svh] bg-fixed pb-10">
       {/* Inicio */}
-      <section className="flex flex-col items-center justify-center text-center py-28 bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center md:bg-fixed backdrop-brightness-75">
+      <section className="flex flex-col items-center justify-center text-center py-15 bg-[url('/background2.png')] bg-no-repeat bg-cover bg-center md:bg-fixed backdrop-brightness-75">
         {/* Título principal */}
-        <h1 className="text-[3rem] md:text-[5rem] font-extrabold text-white drop-shadow-xl tracking-tight">
+        <h1 className="text-[3rem] md:text-[3.2rem] font-extrabold text-white drop-shadow-xl tracking-tight">
           ClassManager
         </h1>
 
@@ -23,9 +23,9 @@ export default function Home() {
         </h2>
 
         {/* Descrição */}
-        <p className="text-base md:text-xl text-gray-200 max-w-3xl px-6 font-medium leading-relaxed">
+        <p className="text-base md:text-xl text-gray-200 max-w-3xl font-medium leading-relaxed">
           Organize professores, disciplinas e aulas em um único lugar. <br />
-          Um sistema desenvolvido para tornar o gerenciamento escolar ágil, intuitivo e eficiente.
+          Um sistema desenvolvido para gerenciamento escolar, intuitivo e eficiente.
         </p>
       </section>
 
