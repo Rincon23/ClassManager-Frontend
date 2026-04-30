@@ -23,7 +23,7 @@ export default function ListarDisciplinasPage() {
 
     const fetchDisciplinas = async () => {
       try {
-        const res = await fetch("http://localhost:3000/subject", {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/subject`, {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",

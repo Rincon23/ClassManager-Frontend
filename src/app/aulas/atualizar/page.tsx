@@ -21,7 +21,7 @@ export default function AtualizarAulaPage() {
 
     const token = localStorage.getItem("token");
     try {
-      const res = await fetch("http://localhost:3000/class", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/class`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

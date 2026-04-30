@@ -21,7 +21,7 @@ export default function CriarAulaPage() {
 
     const token = localStorage.getItem("token");
     try {
-      const res = await fetch("http://localhost:3000/class", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/class`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

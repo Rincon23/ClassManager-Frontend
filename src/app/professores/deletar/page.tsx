@@ -24,7 +24,7 @@ export default function ExcluirProfessorPage() {
 
     const fetchTeachers = async () => {
       try {
-        const res = await fetch("http://localhost:3000/teachers", {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/teachers`, {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -56,7 +56,7 @@ export default function ExcluirProfessorPage() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/teachers", {
+      const res = await fetch("`${process.env.NEXT_PUBLIC_API_URL}/teachers", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

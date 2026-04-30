@@ -25,7 +25,7 @@ export default function ExcluirDisciplinaPage() {
 
     const fetchDisciplinas = async () => {
       try {
-        const res = await fetch("http://localhost:3000/subject", {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/subject`, {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
@@ -58,7 +58,7 @@ export default function ExcluirDisciplinaPage() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/subject", {
+      const res = await fetch("`${process.env.NEXT_PUBLIC_API_URL}/subject", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

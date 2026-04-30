@@ -25,7 +25,7 @@ export default function ListarAulasPage() {
 
     const fetchAulas = async () => {
       try {
-        const res = await fetch("http://localhost:3000/class", {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/class`, {
           headers: { Authorization: `Bearer ${token}` },
         });
 

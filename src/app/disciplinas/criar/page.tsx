@@ -30,7 +30,7 @@ export default function CriarDisciplinaPage() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/subject", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/subject`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
