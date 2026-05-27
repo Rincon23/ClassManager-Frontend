@@ -26,7 +26,7 @@ export default function AtualizarDisciplinaPage() {
 
     const fetchDisciplinas = async () => {
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/subject`, {
+        const res = await fetch(`http://100.87.133.102:3000/subject`, {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
@@ -59,7 +59,7 @@ export default function AtualizarDisciplinaPage() {
     }
 
     try {
-      const res = await fetch("`${process.env.NEXT_PUBLIC_API_URL}/subject", {
+      const res = await fetch("http://100.87.133.102:3000/subject", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

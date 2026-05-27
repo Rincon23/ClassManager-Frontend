@@ -26,7 +26,7 @@ export default function CriarProfessorPage() {
     }
 
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/teachers`, {
+      const res = await fetch(`http://100.87.133.102:3000/teachers`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

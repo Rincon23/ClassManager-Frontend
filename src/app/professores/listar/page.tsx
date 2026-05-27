@@ -29,7 +29,7 @@ export default function ListarProfessoresPage() {
 
     const fetchTeachers = async () => {
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/teachers`, {
+        const res = await fetch(`http://100.87.133.102:3000/teachers`, {
           headers: { Authorization: `Bearer ${token}` },
         });
 

@@ -19,7 +19,7 @@ export default function ExcluirAulaPage() {
 
     const token = localStorage.getItem("token");
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/class`, {
+      const res = await fetch(`http://100.87.133.102:3000/class`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
